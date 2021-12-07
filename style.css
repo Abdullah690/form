@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .mainBody {
+    background-color: black;
+    color: #f1f1f1;
+
+  }
+  .main_flex{
+      display: flex !important;
+      justify-content: space-around;
+  }
+  
+  h1 {
+    font-family: "Outfit", sans-serif;
+    border-bottom: 8px solid rgb(8, 156, 27);
+    height: 80px;
+  }
+  .btn-primary{
+      background-color: rgb(8, 156, 27) !important;
+      font-size: 17px !important;
+      border-radius: 5px  !important;
+      padding: 7px 14px !important;
+  }
+  h3{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .answer {
+    display: none;
+  }
+  
+  .faqDiv {
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #181816;
+    padding: 25px;
+    color: #f1f1f1;
+  }
+  
+  .footer a {
+    color: red;
+  }
+
+
+  .dark-faqs {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .light-faqs {
+    background-color: #181816;
+    color: #f1f1f1;
+  }
+  
